@@ -33,6 +33,7 @@ namespace swapiClient
             Scroll(300);
 
         }
+
         public void Scroll(int speed)
         {
             for (int i = 0; i < Console.WindowHeight; i++)

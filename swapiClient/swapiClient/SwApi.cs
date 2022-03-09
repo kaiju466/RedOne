@@ -18,6 +18,7 @@ namespace swapiClient
         {
             urlStart = "https://swapi.dev/api/planets/1/?format=json";
             client.Headers.Add("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.0.3705;)");
+            client.Headers.Add("Content-Type", "application/json");
 
         }
         public String send(String url)
@@ -34,14 +35,14 @@ namespace swapiClient
         {
 
             Root StarshipResults = JsonConvert.DeserializeObject<Root>(send(url));
-
-            while(!String.IsNullOrEmpty(StarshipResults.next))
-            { 
+            Boolean flag = true;
+            while (flag)//!String.IsNullOrEmpty(StarshipResults.next)) ;
+            {
                 foreach (swapiClient.Starship starship in StarshipResults.results)
                 {
                     if (double.Parse(starship.length) > 10)
                     {
-                        Console.WriteLine("Starship Name: "+starship.name +" "+ starship.length.ToString());
+                        Console.WriteLine("Starship Name: " + starship.name);
 
                         if (starship.pilots.Count < 1)
                         {
@@ -61,9 +62,14 @@ namespace swapiClient
 
 
                 }
+                if(StarshipResults.next == null)
+                {
+                    return;
+                }
+                //Console.WriteLine(StarshipResults.next);
                 StarshipResults = JsonConvert.DeserializeObject<Root>(send(StarshipResults.next));
             }
-
+            
 
 
 
