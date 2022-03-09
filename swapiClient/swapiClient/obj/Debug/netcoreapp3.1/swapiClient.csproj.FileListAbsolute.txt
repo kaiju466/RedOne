@@ -1,0 +1,16 @@
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\bin\Debug\netcoreapp3.1\swapiClient.exe
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\obj\Debug\netcoreapp3.1\swapiClient.csprojAssemblyReference.cache
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\obj\Debug\netcoreapp3.1\swapiClient.AssemblyInfoInputs.cache
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\obj\Debug\netcoreapp3.1\swapiClient.AssemblyInfo.cs
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\bin\Debug\netcoreapp3.1\Polly.dll
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\obj\Debug\netcoreapp3.1\swapiClient.csproj.CopyComplete
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\bin\Debug\netcoreapp3.1\JsonSubTypes.dll
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\bin\Debug\netcoreapp3.1\swapiClient.deps.json
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\bin\Debug\netcoreapp3.1\swapiClient.runtimeconfig.json
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\bin\Debug\netcoreapp3.1\swapiClient.runtimeconfig.dev.json
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\bin\Debug\netcoreapp3.1\swapiClient.dll
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\bin\Debug\netcoreapp3.1\swapiClient.pdb
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\obj\Debug\netcoreapp3.1\swapiClient.dll
+C:\Users\id72009\Documents\Source\Repos\RedOne\swapiClient\swapiClient\obj\Debug\netcoreapp3.1\swapiClient.pdb
